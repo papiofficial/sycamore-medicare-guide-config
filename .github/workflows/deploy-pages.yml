@@ -44,7 +44,6 @@ jobs:
         run: |
           mkdir -p _site/medicare-guide
           cp annual-values.json _site/medicare-guide/annual-values.json
-          cp CNAME _site/CNAME
           cp .nojekyll _site/.nojekyll
 
       - name: Configure GitHub Pages

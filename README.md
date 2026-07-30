@@ -47,8 +47,11 @@ It validates the JSON shape and 64 KB limit, copies only these files into the
 Pages artifact, and deploys that artifact:
 
 - `annual-values.json` as `medicare-guide/annual-values.json`;
-- `CNAME`;
 - `.nojekyll`.
+
+A custom GitHub Actions Pages workflow ignores a `CNAME` file. The repository's
+`CNAME` records the intended hostname for operators, while the actual custom
+domain is configured through the GitHub Pages setting or API.
 
 A merge or push does not publish by itself. An authorized operator must run the
 `Deploy annual values to GitHub Pages` workflow after the reviewed commit is on
