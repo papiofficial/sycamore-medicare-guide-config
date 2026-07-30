@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-07-30T12:00:00Z",
+  "annualValues": [
+    {
+      "planYear": 2026,
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31",
+      "lastVerified": "2026-07-30",
+      "sourceURLs": [
+        "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles",
+        "https://www.ssa.gov/benefits/medicare/medicare-premiums.html",
+        "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-part-d-bid-information-and-part-d-premium-stabilization-demonstration-parameters",
+        "https://www.medicare.gov/basics/costs/medicare-costs"
+      ],
+      "standardPartBPremium": 202.90,
+      "partBDeductible": 283.00,
+      "reducedPartAPremium": 311.00,
+      "fullPartAPremium": 565.00,
+      "partDOutOfPocketCap": 2100.00,
+      "nationalBaseBeneficiaryPremium": 38.99,
+      "individualIrmaaTiers": [
+        { "upperIncomeInclusive": 109000, "partBMonthlySurcharge": 0, "partDMonthlySurcharge": 0 },
+        { "upperIncomeInclusive": 137000, "partBMonthlySurcharge": 81.20, "partDMonthlySurcharge": 14.50 },
+        { "upperIncomeInclusive": 171000, "partBMonthlySurcharge": 202.90, "partDMonthlySurcharge": 37.50 },
+        { "upperIncomeInclusive": 205000, "partBMonthlySurcharge": 324.60, "partDMonthlySurcharge": 60.40 },
+        { "upperIncomeInclusive": 499999.99, "partBMonthlySurcharge": 446.30, "partDMonthlySurcharge": 83.30 },
+        { "upperIncomeInclusive": null, "partBMonthlySurcharge": 487.00, "partDMonthlySurcharge": 91.00 }
+      ],
+      "jointIrmaaTiers": [
+        { "upperIncomeInclusive": 218000, "partBMonthlySurcharge": 0, "partDMonthlySurcharge": 0 },
+        { "upperIncomeInclusive": 274000, "partBMonthlySurcharge": 81.20, "partDMonthlySurcharge": 14.50 },
+        { "upperIncomeInclusive": 342000, "partBMonthlySurcharge": 202.90, "partDMonthlySurcharge": 37.50 },
+        { "upperIncomeInclusive": 410000, "partBMonthlySurcharge": 324.60, "partDMonthlySurcharge": 60.40 },
+        { "upperIncomeInclusive": 749999.99, "partBMonthlySurcharge": 446.30, "partDMonthlySurcharge": 83.30 },
+        { "upperIncomeInclusive": null, "partBMonthlySurcharge": 487.00, "partDMonthlySurcharge": 91.00 }
+      ],
+      "marriedSeparateIrmaaTiers": [
+        { "upperIncomeInclusive": 109000, "partBMonthlySurcharge": 0, "partDMonthlySurcharge": 0 },
+        { "upperIncomeInclusive": 390999.99, "partBMonthlySurcharge": 446.30, "partDMonthlySurcharge": 83.30 },
+        { "upperIncomeInclusive": null, "partBMonthlySurcharge": 487.00, "partDMonthlySurcharge": 91.00 }
+      ]
+    }
+  ]
+}

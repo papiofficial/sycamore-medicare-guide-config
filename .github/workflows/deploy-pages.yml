@@ -1,0 +1,60 @@
+name: Deploy annual values to GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  validate-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out reviewed configuration
+        uses: actions/checkout@v4
+
+      - name: Validate annual-values document
+        run: |
+          test "$(wc -c < annual-values.json)" -le 65536
+          jq -e '
+            .schemaVersion == 1
+            and (.publishedAt | type == "string")
+            and (.annualValues | type == "array" and length > 0)
+            and all(
+              .annualValues[];
+              (.planYear | type == "number")
+              and (.validFrom | type == "string")
+              and (.validThrough | type == "string")
+              and (.lastVerified | type == "string")
+              and (.sourceURLs | type == "array" and length > 0)
+            )
+          ' annual-values.json > /dev/null
+
+      - name: Prepare the Pages artifact
+        run: |
+          mkdir -p _site/medicare-guide
+          cp annual-values.json _site/medicare-guide/annual-values.json
+          cp CNAME _site/CNAME
+          cp .nojekyll _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
