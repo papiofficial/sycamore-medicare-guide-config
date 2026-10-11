@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-11T12:00:00Z",
+  "licensedStates": ["AL", "CA", "IL", "MI", "NJ", "NY", "NC", "OH", "PA", "TX", "UT"],
+  "pendingStates": ["AR", "FL", "GA", "ID"],
+  "bookingURL": "https://app.unlockedcrm.ai/bookings/free-medicare-consultation",
+  "shipURL": "https://www.shiphelp.org/"
+}

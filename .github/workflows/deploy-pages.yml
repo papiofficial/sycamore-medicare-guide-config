@@ -40,10 +40,23 @@ jobs:
             )
           ' annual-values.json > /dev/null
 
+      - name: Validate contact config
+        run: |
+          test "$(wc -c < contact-config.json)" -le 16384
+          jq -e '
+            .schemaVersion == 1
+            and (.publishedAt | type == "string")
+            and (.licensedStates | type == "array" and length > 0)
+            and all(.licensedStates[], .pendingStates[]; type == "string" and test("^[A-Z]{2}$"))
+            and (.bookingURL | startswith("https://"))
+            and (.shipURL | startswith("https://"))
+          ' contact-config.json > /dev/null
+
       - name: Prepare the Pages artifact
         run: |
           mkdir -p _site/medicare-guide
           cp annual-values.json _site/medicare-guide/annual-values.json
+          cp contact-config.json _site/medicare-guide/contact-config.json
           cp .nojekyll _site/.nojekyll
 
       - name: Configure GitHub Pages

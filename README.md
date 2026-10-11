@@ -17,6 +17,17 @@ serves Webflow embed scripts whose URLs must remain unchanged.
 The app must not point at the production endpoint in an uploaded binary until
 the GitHub Pages URL returns the reviewed file over HTTPS at the custom domain.
 
+## Contact config (added 2026-10-11)
+
+`contact-config.json` is served at
+`https://config.restingsycamore.com/medicare-guide/contact-config.json` for the
+sign-up app (App 1). It holds the states where Peter is licensed, the booking
+link, and the SHIP locator link. The app validates it (known state codes, HTTPS,
+allow-listed booking and SHIP hosts) and falls back to its bundled copy, so a
+bad file can't redirect anyone. Peter's phone and email are compiled into the
+app on purpose and are not in this file. Keep the bundled copy in
+`Apps/SignUpHelp/Resources/contact-config.json` (rsa-medicare-apps) identical.
+
 ## Cache policy
 
 GitHub Pages controls its CDN response headers and does not provide per-file
