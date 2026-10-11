@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-07-30T12:00:00Z",
+  "publishedAt": "2026-10-11T12:00:00Z",
   "annualValues": [
     {
       "planYear": 2026,
@@ -15,6 +15,7 @@
       ],
       "standardPartBPremium": 202.90,
       "partBDeductible": 283.00,
+      "partADeductible": 1736.00,
       "reducedPartAPremium": 311.00,
       "fullPartAPremium": 565.00,
       "partDOutOfPocketCap": 2100.00,
