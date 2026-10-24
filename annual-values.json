@@ -21,6 +21,7 @@
       "hsaLimitFamily": 8750.00,
       "hsaCatchUp55": 1000.00,
       "maInNetworkMaxOutOfPocket": 9250.00,
+      "medigapHighDeductibleGDeductible": 2950.00,
       "reducedPartAPremium": 311.00,
       "fullPartAPremium": 565.00,
       "partDOutOfPocketCap": 2100.00,
@@ -54,6 +55,7 @@
       "name": "Alaska",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Alaska Medicare Information Office (SHIP)",
@@ -66,6 +68,7 @@
       "name": "Alabama",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Alabama State Health Insurance Assistance Program (SHIP)",
@@ -78,6 +81,7 @@
       "name": "Arkansas",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Arkansas Senior Health Insurance Information Program (SHIIP)",
@@ -90,6 +94,7 @@
       "name": "Arizona",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Arizona SHIP",
@@ -103,6 +108,7 @@
       "switchRight": "yearly",
       "sentence": "In California, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can pick a plan with the same or fewer benefits from any company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "California Health Insurance Counseling and Advocacy Program (HICAP)",
@@ -116,6 +122,7 @@
       "name": "Colorado",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Colorado SHIP (Senior Health Care and Medicare)",
@@ -129,6 +136,7 @@
       "switchRight": "yearRound",
       "sentence": "In Connecticut, you can buy any Medigap plan at any time of year, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Connecticut CHOICES",
@@ -142,6 +150,7 @@
       "name": "District of Columbia",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "DC SHIP (Health Insurance Counseling Project)",
@@ -155,6 +164,7 @@
       "switchRight": "yearly",
       "sentence": "In Delaware, if you have Medigap, you can switch each year from 30 days before to 30 days after your birthday. You can pick a plan with the same or fewer benefits from your company or a new one, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Delaware Medicare Assistance Bureau (DMAB)",
@@ -168,6 +178,7 @@
       "name": "Florida",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Florida SHINE (Serving Health Insurance Needs of Elders)",
@@ -180,6 +191,7 @@
       "name": "Georgia",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "GeorgiaCares SHIP",
@@ -192,6 +204,7 @@
       "name": "Hawaii",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Hawaii SHIP",
@@ -204,6 +217,7 @@
       "name": "Iowa",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Iowa Senior Health Insurance Information Program (SHIIP)",
@@ -217,6 +231,7 @@
       "switchRight": "yearly",
       "sentence": "In Idaho, if you have Medigap, you can switch each year for 63 days starting on your birthday. You can pick a plan with the same or fewer benefits from any company that sells in Idaho, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Idaho Senior Health Insurance Benefits Advisors (SHIBA)",
@@ -231,6 +246,7 @@
       "switchRight": "yearly",
       "sentence": "In Illinois, if you have Medigap, you can switch each year for 45 days starting on your birthday. You can pick a plan with the same or fewer benefits from your current company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Illinois Senior Health Insurance Program (SHIP)",
@@ -244,6 +260,7 @@
       "name": "Indiana",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Indiana SHIP",
@@ -257,6 +274,7 @@
       "name": "Kansas",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Senior Health Insurance Counseling for Kansas (SHICK)",
@@ -270,6 +288,7 @@
       "switchRight": "yearly",
       "sentence": "In Kentucky, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can move to the same plan letter from a different company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Kentucky SHIP",
@@ -283,6 +302,7 @@
       "name": "Louisiana",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Louisiana Senior Health Insurance Information Program (SHIIP)",
@@ -296,6 +316,8 @@
       "name": "Massachusetts",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": true,
+      "ownPlanNames": "Massachusetts has its own Medigap plans: Core and Supplement 1A. If you were eligible for Medicare before 2020, Supplement 1 may also be open to you.",
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Massachusetts SHINE (Serving the Health Insurance Needs of Everyone)",
@@ -310,6 +332,7 @@
       "switchRight": "yearly",
       "sentence": "In Maryland, if you have Medigap, you can switch each year from your birthday through the 30 days after. You can pick a plan with the same or fewer benefits from any company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Maryland Senior Health Insurance Assistance Program (SHIP)",
@@ -324,6 +347,7 @@
       "switchRight": "existingPolicyholderSwitch",
       "sentence": "In Maine, if you have Medigap and haven't gone more than 90 days without it, you can switch to a plan with the same or fewer benefits at any time, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Maine SHIP",
@@ -337,6 +361,7 @@
       "name": "Michigan",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Michigan Medicare/Medicaid Assistance Program (MMAP)",
@@ -349,6 +374,8 @@
       "name": "Minnesota",
       "switchRight": "none",
       "ownPlanDesigns": true,
+      "ownPlanNames": "Minnesota has its own Medigap plans: a Basic plan and an Extended Basic plan, with options you can add, plus Minnesota versions of some lettered plans.",
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Minnesota Senior LinkAge Line (Aging Pathways)",
@@ -361,6 +388,7 @@
       "name": "Missouri",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Missouri SHIP",
@@ -374,6 +402,7 @@
       "name": "Mississippi",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Mississippi SHIP",
@@ -386,6 +415,7 @@
       "name": "Montana",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Montana SHIP",
@@ -398,6 +428,7 @@
       "name": "North Carolina",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "North Carolina Seniors' Health Insurance Information Program (SHIIP)",
@@ -410,6 +441,7 @@
       "name": "North Dakota",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "North Dakota State Health Insurance Counseling (SHIC)",
@@ -422,6 +454,7 @@
       "name": "Nebraska",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Nebraska SHIP",
@@ -434,6 +467,7 @@
       "name": "New Hampshire",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "New Hampshire SHIP (ServiceLink)",
@@ -446,6 +480,7 @@
       "name": "New Jersey",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "New Jersey SHIP",
@@ -463,6 +498,7 @@
         "sentence": "In New Mexico, if you have Medigap, you can switch each year for 60 days starting the first day of your birth month. You can pick a plan of equal or lesser value from any company that sells in New Mexico, with no health questions."
       },
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "New Mexico SHIP (Aging and Disability Resource Center)",
@@ -476,6 +512,7 @@
       "name": "Nevada",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Nevada Medicare Assistance Program (MAP)",
@@ -490,6 +527,7 @@
       "switchRight": "yearRound",
       "sentence": "In New York, you can buy any Medigap plan at any time of year, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "New York Health Insurance Information, Counseling and Assistance Program (HIICAP)",
@@ -503,6 +541,7 @@
       "name": "Ohio",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Ohio Senior Health Insurance Information Program (OSHIIP)",
@@ -516,6 +555,7 @@
       "switchRight": "yearly",
       "sentence": "In Oklahoma, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can pick a plan with the same or fewer benefits from any company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Oklahoma Senior Health Insurance Counseling Program (SHICP)",
@@ -529,6 +569,7 @@
       "name": "Oregon",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Oregon Senior Health Insurance Benefits Assistance (SHIBA)",
@@ -542,6 +583,7 @@
       "name": "Pennsylvania",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "PA MEDI (Medicare Education and Decision Insight)",
@@ -554,6 +596,7 @@
       "name": "Rhode Island",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Rhode Island SHIP",
@@ -567,6 +610,7 @@
       "name": "South Carolina",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "South Carolina SHIP",
@@ -579,6 +623,7 @@
       "name": "South Dakota",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "South Dakota Senior Health Information and Insurance Education (SHIINE)",
@@ -591,6 +636,7 @@
       "name": "Tennessee",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Tennessee SHIP (TN SHIP)",
@@ -603,6 +649,7 @@
       "name": "Texas",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Texas Health Information, Counseling and Advocacy Program (HICAP)",
@@ -616,6 +663,7 @@
       "switchRight": "yearly",
       "sentence": "In Utah, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can pick a similar or lower plan from your current company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Utah SHIP",
@@ -629,6 +677,7 @@
       "name": "Virginia",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Virginia Insurance Counseling and Assistance Program (VICAP)",
@@ -642,6 +691,7 @@
       "name": "Vermont",
       "switchRight": "none",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Vermont SHIP",
@@ -655,6 +705,7 @@
       "switchRight": "existingPolicyholderSwitch",
       "sentence": "In Washington, if you have Medigap, you can switch plans at any time with no health questions. Plan A can only move to Plan A.",
       "ownPlanDesigns": false,
+      "communityRated": true,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Washington Statewide Health Insurance Benefits Advisors (SHIBA)",
@@ -668,6 +719,8 @@
       "name": "Wisconsin",
       "switchRight": "none",
       "ownPlanDesigns": true,
+      "ownPlanNames": "Wisconsin has its own Medigap plans: a Basic plan, cost-sharing plans and a high-deductible plan, with options you can add, like coverage for excess charges or travel abroad.",
+      "communityRated": false,
       "under65PolicyRequired": true,
       "ship": {
         "name": "Wisconsin SHIP (Medigap Helpline)",
@@ -681,6 +734,7 @@
       "switchRight": "yearly",
       "sentence": "In West Virginia, if you have Medigap, you can switch each year for 60 days starting the first day of your birth month. You can pick a plan with the same or fewer benefits from your current company, with no health questions.",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "West Virginia SHIP (WV SHIP)",
@@ -694,6 +748,7 @@
       "name": "Wyoming",
       "switchRight": "checkWithShip",
       "ownPlanDesigns": false,
+      "communityRated": false,
       "under65PolicyRequired": false,
       "ship": {
         "name": "Wyoming State Health Insurance Information Program (WSHIIP)",
