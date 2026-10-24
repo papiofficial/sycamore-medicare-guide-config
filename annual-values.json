@@ -11,11 +11,15 @@
         "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles",
         "https://www.ssa.gov/benefits/medicare/medicare-premiums.html",
         "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-part-d-bid-information-and-part-d-premium-stabilization-demonstration-parameters",
-        "https://www.medicare.gov/basics/costs/medicare-costs"
+        "https://www.medicare.gov/basics/costs/medicare-costs",
+        "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf"
       ],
       "standardPartBPremium": 202.90,
       "partBDeductible": 283.00,
       "partADeductible": 1736.00,
+      "hsaLimitSelfOnly": 4400.00,
+      "hsaLimitFamily": 8750.00,
+      "hsaCatchUp55": 1000.00,
       "reducedPartAPremium": 311.00,
       "fullPartAPremium": 565.00,
       "partDOutOfPocketCap": 2100.00,
