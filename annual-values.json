@@ -20,6 +20,7 @@
       "hsaLimitSelfOnly": 4400.00,
       "hsaLimitFamily": 8750.00,
       "hsaCatchUp55": 1000.00,
+      "maInNetworkMaxOutOfPocket": 9250.00,
       "reducedPartAPremium": 311.00,
       "fullPartAPremium": 565.00,
       "partDOutOfPocketCap": 2100.00,
@@ -45,6 +46,661 @@
         { "upperIncomeInclusive": 390999.99, "partBMonthlySurcharge": 446.30, "partDMonthlySurcharge": 83.30 },
         { "upperIncomeInclusive": null, "partBMonthlySurcharge": 487.00, "partDMonthlySurcharge": 91.00 }
       ]
+    }
+  ],
+  "medigapStateRules": [
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Alaska Medicare Information Office (SHIP)",
+        "phone": "1-800-478-6065"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Alabama State Health Insurance Assistance Program (SHIP)",
+        "phone": "1-800-243-5463"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Arkansas Senior Health Insurance Information Program (SHIIP)",
+        "phone": "1-800-224-6330"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Arizona SHIP",
+        "phone": "1-800-432-4040"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "switchRight": "yearly",
+      "sentence": "In California, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can pick a plan with the same or fewer benefits from any company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "California Health Insurance Counseling and Advocacy Program (HICAP)",
+        "phone": "1-800-434-0222"
+      },
+      "source": "https://california.public.law/codes/ca_ins_code_section_10192.11",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Colorado SHIP (Senior Health Care and Medicare)",
+        "phone": "1-888-696-7213"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "switchRight": "yearRound",
+      "sentence": "In Connecticut, you can buy any Medigap plan at any time of year, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Connecticut CHOICES",
+        "phone": "1-800-994-9422"
+      },
+      "source": "https://www.kff.org/medicare/issue-brief/medigap-enrollment-and-consumer-protections-vary-across-states/",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "DC SHIP (Health Insurance Counseling Project)",
+        "phone": "202-727-8370"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "switchRight": "yearly",
+      "sentence": "In Delaware, if you have Medigap, you can switch each year from 30 days before to 30 days after your birthday. You can pick a plan with the same or fewer benefits from your company or a new one, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Delaware Medicare Assistance Bureau (DMAB)",
+        "phone": "1-800-336-9500"
+      },
+      "source": "https://insurance.delaware.gov/wp-content/uploads/sites/15/2026/04/SB-71-Fact-Sheet.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Florida SHINE (Serving Health Insurance Needs of Elders)",
+        "phone": "1-800-963-5337"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "GeorgiaCares SHIP",
+        "phone": "1-866-552-4464"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Hawaii SHIP",
+        "phone": "1-888-875-9229"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Iowa Senior Health Insurance Information Program (SHIIP)",
+        "phone": "1-800-351-4664"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "switchRight": "yearly",
+      "sentence": "In Idaho, if you have Medigap, you can switch each year for 63 days starting on your birthday. You can pick a plan with the same or fewer benefits from any company that sells in Idaho, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Idaho Senior Health Insurance Benefits Advisors (SHIBA)",
+        "phone": "1-800-247-4422"
+      },
+      "source": "https://doi.idaho.gov/shiba/new-to-medicare/medicare-supplement-medigap/recent-changes-to-medicare-supplement-law-and-rules/",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "switchRight": "yearly",
+      "sentence": "In Illinois, if you have Medigap, you can switch each year for 45 days starting on your birthday. You can pick a plan with the same or fewer benefits from your current company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Illinois Senior Health Insurance Program (SHIP)",
+        "phone": "1-800-252-8966"
+      },
+      "source": "https://www.ilga.gov/ftp/Public%20Acts/102/102-0142.htm",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Indiana SHIP",
+        "phone": "1-800-452-4800"
+      },
+      "source": "https://www.in.gov/idoi/files/HEA-1226-Fact-Sheet.docx",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Senior Health Insurance Counseling for Kansas (SHICK)",
+        "phone": "1-800-860-5260"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "switchRight": "yearly",
+      "sentence": "In Kentucky, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can move to the same plan letter from a different company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Kentucky SHIP",
+        "phone": "1-877-293-7447"
+      },
+      "source": "https://apps.legislature.ky.gov/law/acts/23RS/documents/0182.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Louisiana Senior Health Insurance Information Program (SHIIP)",
+        "phone": "1-800-259-5300"
+      },
+      "source": "https://legis.la.gov/legis/ViewDocument.aspx?d=1335844",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": true,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Massachusetts SHINE (Serving the Health Insurance Needs of Everyone)",
+        "phone": "1-800-243-4636"
+      },
+      "source": "https://www.law.cornell.edu/regulations/massachusetts/211-CMR-71-10",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "switchRight": "yearly",
+      "sentence": "In Maryland, if you have Medigap, you can switch each year from your birthday through the 30 days after. You can pick a plan with the same or fewer benefits from any company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Maryland Senior Health Insurance Assistance Program (SHIP)",
+        "phone": "1-800-243-3425"
+      },
+      "source": "https://insurance.maryland.gov/Consumer/Pages/medicare-birthday-rule.aspx",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "switchRight": "existingPolicyholderSwitch",
+      "sentence": "In Maine, if you have Medigap and haven't gone more than 90 days without it, you can switch to a plan with the same or fewer benefits at any time, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Maine SHIP",
+        "phone": "1-800-262-2232"
+      },
+      "source": "https://www.maine.gov/pfr/insurance/consumers/medicare-supplement-insurance/buy-switch-outside-open-enrollment",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Michigan Medicare/Medicaid Assistance Program (MMAP)",
+        "phone": "1-800-803-7174"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "switchRight": "none",
+      "ownPlanDesigns": true,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Minnesota Senior LinkAge Line (Aging Pathways)",
+        "phone": "1-800-333-2433"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Missouri SHIP",
+        "phone": "1-800-390-3330"
+      },
+      "source": "https://insurance.mo.gov/medigap-medicare-supplement-insurance",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Mississippi SHIP",
+        "phone": "1-844-822-4622"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Montana SHIP",
+        "phone": "1-800-551-3191"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "North Carolina Seniors' Health Insurance Information Program (SHIIP)",
+        "phone": "1-855-408-1212"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "North Dakota State Health Insurance Counseling (SHIC)",
+        "phone": "1-888-575-6611"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Nebraska SHIP",
+        "phone": "1-800-234-7119"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "New Hampshire SHIP (ServiceLink)",
+        "phone": "1-866-634-9412"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "New Jersey SHIP",
+        "phone": "1-800-792-8820"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "switchRight": "none",
+      "pending": {
+        "effective": "2027-01-01",
+        "switchRight": "yearly",
+        "sentence": "In New Mexico, if you have Medigap, you can switch each year for 60 days starting the first day of your birth month. You can pick a plan of equal or lesser value from any company that sells in New Mexico, with no health questions."
+      },
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "New Mexico SHIP (Aging and Disability Resource Center)",
+        "phone": "1-800-432-2080"
+      },
+      "source": "https://www.nmlegis.gov/Sessions/26%20Regular/final/SB0021.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Nevada Medicare Assistance Program (MAP)",
+        "phone": "1-800-307-4444"
+      },
+      "source": "https://doi.nv.gov/uploadedFiles/doi.nv.gov/Content/Insurers/Life_and_Health/AB%20250%20Guidance.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "switchRight": "yearRound",
+      "sentence": "In New York, you can buy any Medigap plan at any time of year, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "New York Health Insurance Information, Counseling and Assistance Program (HIICAP)",
+        "phone": "1-800-701-0501"
+      },
+      "source": "https://www.kff.org/medicare/issue-brief/medigap-enrollment-and-consumer-protections-vary-across-states/",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Ohio Senior Health Insurance Information Program (OSHIIP)",
+        "phone": "1-800-686-1578"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "switchRight": "yearly",
+      "sentence": "In Oklahoma, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can pick a plan with the same or fewer benefits from any company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Oklahoma Senior Health Insurance Counseling Program (SHICP)",
+        "phone": "1-800-763-2828"
+      },
+      "source": "https://www.oid.ok.gov/bulletin-no-10-2023-revised/",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Oregon Senior Health Insurance Benefits Assistance (SHIBA)",
+        "phone": "1-800-722-4134"
+      },
+      "source": "https://shiba.oregon.gov/Documents/4845-ins-birthday-rule-2023.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "PA MEDI (Medicare Education and Decision Insight)",
+        "phone": "1-800-783-7067"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Rhode Island SHIP",
+        "phone": "1-888-884-8721"
+      },
+      "source": "https://www.kff.org/medicare/issue-brief/medigap-enrollment-and-consumer-protections-vary-across-states/",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "South Carolina SHIP",
+        "phone": "1-800-868-9095"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "South Dakota Senior Health Information and Insurance Education (SHIINE)",
+        "phone": "1-888-854-5321"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Tennessee SHIP (TN SHIP)",
+        "phone": "1-877-801-0044"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Texas Health Information, Counseling and Advocacy Program (HICAP)",
+        "phone": "1-800-252-9240"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "switchRight": "yearly",
+      "sentence": "In Utah, if you have Medigap, you can switch each year for 60 days starting on your birthday. You can pick a similar or lower plan from your current company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Utah SHIP",
+        "phone": "1-800-541-7735"
+      },
+      "source": "https://le.utah.gov/Session/2025/bills/enrolled/HB0258.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Virginia Insurance Counseling and Assistance Program (VICAP)",
+        "phone": "1-800-552-3402"
+      },
+      "source": "https://law.lis.virginia.gov/vacode/title38.2/chapter36/section38.2-3611/",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "switchRight": "none",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Vermont SHIP",
+        "phone": "1-800-642-5119"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "switchRight": "existingPolicyholderSwitch",
+      "sentence": "In Washington, if you have Medigap, you can switch plans at any time with no health questions. Plan A can only move to Plan A.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Washington Statewide Health Insurance Benefits Advisors (SHIBA)",
+        "phone": "1-800-562-6900"
+      },
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=48.66.045",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "switchRight": "none",
+      "ownPlanDesigns": true,
+      "under65PolicyRequired": true,
+      "ship": {
+        "name": "Wisconsin SHIP (Medigap Helpline)",
+        "phone": "1-800-242-1060"
+      },
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "switchRight": "yearly",
+      "sentence": "In West Virginia, if you have Medigap, you can switch each year for 60 days starting the first day of your birth month. You can pick a plan with the same or fewer benefits from your current company, with no health questions.",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "West Virginia SHIP (WV SHIP)",
+        "phone": "1-877-987-4463"
+      },
+      "source": "https://www.wvlegislature.gov/Bill_Text_HTML/2026_SESSIONS/RS/bills/hb4869%20sub1%20enr.pdf",
+      "lastVerified": "2026-10-24"
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "switchRight": "checkWithShip",
+      "ownPlanDesigns": false,
+      "under65PolicyRequired": false,
+      "ship": {
+        "name": "Wyoming State Health Insurance Information Program (WSHIIP)",
+        "phone": "1-800-856-4398"
+      },
+      "source": "https://doi.wyo.gov/consumers",
+      "lastVerified": "2026-10-24"
     }
   ]
 }
